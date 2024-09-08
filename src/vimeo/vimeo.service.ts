@@ -8,9 +8,9 @@ export class VimeoService {
 
   constructor() {
     this.vimeoClient = new Vimeo(
-      '05367f564ce1d1addcfa5f3d39c60f8ee75241b7', // Vimeo mijoz identifikatori
-      '/CT/aphqbGbkmhuznIiepm4t6b9XqLlhtvX0yIHSFr60MAy7ItvNnT3q0fNygbsSdtZIS/xdPEOFKj6v18wk1Ee07DM/z+AKDqodTbxUXvbTsSu1AsPHNyVi9kyCHB+r', // Vimeo mijoz maxfiy kaliti
-      '79f22897e2632d6abe1d06b76b112533', // Vimeo access token
+      'YOUR_USER_ID', // Vimeo mijoz identifikatori
+      'YOUR_SECRET_KEY', // Vimeo mijoz maxfiy kaliti
+      'YOUR_ACCESS_TOKEN', // Vimeo access token
     );
   }
 
